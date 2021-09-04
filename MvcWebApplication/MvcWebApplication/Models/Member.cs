@@ -10,6 +10,6 @@ namespace MvcWebApplication.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Group { get; set; }
-        public DateTime Transaction { get; set; }
+        public string Transaction { get; set; }
     } 
     }
